@@ -1,0 +1,133 @@
+Git Lesson
+1.What is DevOps?
+2.Tools in DevOps
+3.Version Control System
+4.Centralized Vs Distributed Version Control System
+5.What is git?
+6.Features of git
+7.Workflow of Git
+8.Branch in Git
+9.Commands in Git
+10.Demo on Git
+
+1.What is DevOps?
+-DevOps id a culture that allows devlopment and Operations team to work  together
+-Developers  continuouslty develop and test codes
+-There is continuously integration taking place thourgh out the lifecycle
+-Operations team continuosly deploy the codes to the  production environment
+-Allows better collaboration, increased trust and faster software releases
+
+2.Tools in DevOps:
+Subversion (SVN), TFS  and Git  are  Source Code  Management  or Software Configuration Management tools (SCM) used for both planning and coding of the software.
+
+3.Source Code Management Tools
+SVN
+-SVN is a centralized version control system
+-it is distributed under the open source license
+-it allows you to recover older versions of your data or examine how your  data changes
+
+TFS
+-TFS is a centralized source control tool like SVN
+-it is distributed under the Trailware license
+-TFS is an application lifecycle management solution that does issue tracking and document  management
+
+Git
+-Git is a distributed  version control tool
+-it is distributed under  the  GNU  license
+-Git is  a used for maintaining  historical and current versions  of source code. web pages, etc
+
+3.Version control system 
+-The diagram shows tare 3 files in the local system 
+-A snapshot of these files are stored in the remote respository as Version 1  
+-Now,  there has been some changes to file 2.1.This change is stored as version 2 in the repository
+-VCS allows you to track the history of a collection of files 
+
+-Each version captures  a snapshot of the VCS allows you to switch between these versions
+
+
+4.Centralized Vs Distributed Version Control System
+a.Centralized version control system
+-it uses a central  server to store all the files
+-Every operation is performed directly on the repository
+-All the versions of the file are stored on the Center VCS server
+-In case the central server crashes, entire data of the project will be lost.Hence,Distributed VCS was introduced
+b.Distributed Version Control System
+-every programmer has a copy of all the versions of the code on their local system
+-Distributed VCS moves from the client-server approach of Central VCS to peer-to-peer approach
+-they can update their local repositories with new data from the central server and changes gets reflected to the main repository
+-Git is one such distributed VCS tool
+
+5.What is git?
+Git is a version control system for tracking changes in computer files. it is generally used for source code management in software development.
+-Git is used to track changes in the source code
+-Distributed version control tool used for source code management 
+-Allows multiple developers to work together
+-Supports non-linear development because of its thousands of parallel branches
+
+6.Features of git
+-tracks history
+-free and open source
+-supports non-linear development
+-creates backup
+-scalable
+-supports collaboration
+-branching  is easier
+-distributed development
+
+7.Workflow of Git
+-made 1st diagram in notebook.
+-made 2nd diagram in notebook
+-git workflow in 3-stage
+	a.stage the files, add snapshots of them to your staging area.
+	b.do a commit that stores the snapshots permanently to your git directory.
+	c.checkout any existing version, make changes, stage them and commit.
+
+8.Branch in Git
+-branch in git is used to keep your changes until they are ready
+-you  can  do your work on a branch while the main branch (master) remains stable. After you are done with your are done with your work,you can merge it to the main branch
+
+9.Commands in Git
+Create repositories
+	-git init
+Make change
+	-add
+	-commmit
+	-status
+Sync repositories
+	-push
+	-pull
+	-add origin
+Parallal development
+	-branch
+	-mearge
+	-rebase
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# git_lesson
